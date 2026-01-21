@@ -1,0 +1,56 @@
+site_name: Berberlab - Blog
+site_url: https://blog.berberlab.com/
+
+theme:
+  name: material
+  language: pt
+  logo: assets/img/logo.png
+  favicon: assets/img/favicon.ico
+  features:
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - blog
+
+nav:
+  - Início: public/index.md
+  - Blog: public/blog/index.md
+  - Editor Vim no dia a dia: public/vim-motions.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/marceloberber
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/marceloberber
+
+copyright: "Copyright © 2026 Berberlab - Made with Material for MkDocs"

@@ -1,0 +1,10 @@
+services:
+  blog:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mkdocs.yml:/site/mkdocs.yml
+      - ./docs:/site/docs
+    command: ["mkdocs", "serve", "-a", "0.0.0.0:8000"]
+
