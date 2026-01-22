@@ -31,7 +31,10 @@ plugins:
 
 nav:
   - Início: index.md
-  - Editor Vim no dia a dia: public/vim-motions.md
+  - Sobre mim: about/index.md
+  - Blog:
+      - Linux:
+          - Editor Vim no dia a dia: blog/public/vim-motions.md
 
 markdown_extensions:
   - admonition
@@ -52,4 +55,4 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/marceloberber
 
-copyright: "Copyright © 2026 Berberlab - Made with Material for MkDocs"
+copyright: "Copyright © 2026 Berberlab - Made with <a href=https://squidfunk.github.io/mkdocs-material/ target=_blank rel=noopener>Material for MkDocs</a>"
