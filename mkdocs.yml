@@ -30,8 +30,7 @@ plugins:
   - blog
 
 nav:
-  - Início: public/index.md
-  - Blog: public/blog/index.md
+  - Início: index.md
   - Editor Vim no dia a dia: public/vim-motions.md
 
 markdown_extensions:
