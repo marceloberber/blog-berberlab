@@ -2,4 +2,4 @@
 
 Anotações e guias curtos sobre DevOps, SRE, Cybersecurity e Linux. Ou, melhor dizendo: tecnologia no geral. 🥸👍
 
-![regular-show-gif](./public/gif/regular-show.gif)
+![regular-show-gif](./blog/public/gif/regular-show.gif)
